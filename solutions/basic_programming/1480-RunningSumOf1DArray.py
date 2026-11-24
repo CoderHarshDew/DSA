@@ -11,5 +11,5 @@ class Solution:
 
 # The pattern is to create a runningSum and for ith index take the i-1 th sum
 # and add element i of nums to it and append it (store it) on ith index of running sum
-# As the loop runs n-i times, and we allocate an array equally big as nums
+# As the loop runs n-1 times, and we allocate an array equally big as nums
 # the time & space complexities are both O(n)
